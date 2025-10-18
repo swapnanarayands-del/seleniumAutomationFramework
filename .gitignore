@@ -1,0 +1,302 @@
+Tower
+Features
+Pricing
+Support
+Learn Git
+Blog
+Download
+Tower 14 for Mac – Custom Git Workflows
+.gitignore Generator
+The .gitignore generator is a tool that helps you quickly generate your .gitignore file adapted to your specific project needs so that the unnecessary files and directories are correctly ignored by Git.
+
+Start typing to search...
+java
+eclipse
+maven
+Git is easier for over 100,000 developers that are using Tower.
+
+Also available for macOS
+# .gitignore file created for free with Tower (https://www.git-tower.com/)
+# For suggestions or improvements please contact us using support@git-tower.com
+# Generated on 2025-10-17
+# Includes: java, eclipse, maven
+
+### Universal ###
+# Common files that should be ignored in all projects
+
+# Logs
+*.log
+# Temporary files
+*.tmp
+*~
+
+*.bak
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+.env.*
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Java ###
+# Java compiled files, build directories, and IDE files
+
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+
+*.rar
+hs_err_pid*
+replay_pid*
+.classpath
+.project
+
+.settings/
+target/
+bin/
+build/
+.settings/
+
+*.launch
+.apt_generated/
+.factorypath
+.springBeans
+
+### Eclipse ###
+# Eclipse IDE specific files and settings
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+
+.loadpath
+.recommenders
+.project
+.externalToolBuilders/
+*.launch
+
+.classpath
+.factorypath
+.buildpath
+.target
+.tern-project
+
+.springBeans
+.recommenders/
+.apt_generated/
+.apt_generated_test/
+.cache-main
+
+.scala_dependencies
+.worksheet
+.autotools
+.cproject
+.sts4-cache/
+
+.pydevproject
+.texlipse
+*_flymake.*
+
+### Maven ###
+# Maven build tool files and directories
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+.m2/
+
+*.war
+*.ear
+*.jar
+*.nar
+.project
+
+.classpath
+.settings/
+maven-status/
+maven-archiver/
+generated-sources/
+
+generated-test-sources/
+maven-compiler-plugin/
+maven-metadata.xml
+maven-metadata-local.xml
+.maven-classpath
+
+*.versionsBackup
+maven-eclipse.xml
+
+### Maven ###
+# Maven package manager repository files
+
+# Maven
+.m2/
+repository/
+.mvn/
+maven/
+
+.maven/
+maven-repository/
+.maven-cache/
+maven-metadata-local.xml
+.maven_repos/
+Here's a message from our users...
+When it comes to Git, Tower does all the heavy lifting for you... and our users appreciate it!
+
+Ben Gotow
+I use @gittower and it’s so nice - I think my 2 faves are: drag and drop commits to cherry pick between branches, and rapidly selecting lines within files to commit so I can break a single pile of changes into several well described commits fast!
+
+Ben Gotow
+
+Iván Cabezon
+To me having a GUI is much quicker, in @gittower you can use a 3 key shortcut instead of typing a full sentence or even drag and drop if you don’t know the command yet 🙂, the diff is perfect and the image diff is 💖. You should give it a try! And the undo option is also 😍
+
+Iván Cabezon
+
+Manuel Molina
+Being able to drag and drop commits in @gittower and that it does an interactive rebase in the background is absolutely FABULOUS! Not sure why people like to type weird commands in a terminal.
+
+Manuel Molina
+
+sr
+Just used @gittower's new Reflog feature to restore a commit I accidentally deleted. Having done this before using command line, using Tower has simplified the process ten fold - just drag and drop.
+
+sr
+
+Thibault
+The ability to drag and drop commits in Tower (@gitTower) to re-order commits is so powerful ! I would like to see a guy with his Terminal doing that in less time than Tower 😉 haha
+
+Thibault
+
+Shane Armitage
+I don't typically drag and drop branches in @gittower but was pleasantly surprised to learn the alt key switches between MERGE and REBASE.
+
+Shane Armitage
+
+Peter Friese
+I am a big fan of @gittower. I *love* how it allows you to use drag and drop to merge branches - so intuitive!
+
+Peter Friese
+
+Russell Norris
+ooh i just used @gittower beta to drag-drop squash commits! so nice!
+
+Russell Norris
+
+Ortwin Gentz
+My favorite feature is rebase via drag and drop. #gittower
+
+Ortwin Gentz
+
+What is a .gitignore Generator?
+A .gitignore generator is a tool that automatically creates customized .gitignore files for your projects. Instead of manually writing rules to exclude files and directories from version control, the generator provides pre-configured templates based on your programming language, framework, IDE, and operating system.
+
+This tool saves developers time and ensures that common files like build artifacts, dependency folders, temporary files, and sensitive configuration files are properly excluded from your Git repository from the start.
+
+Frequently Asked Questions
+Why do I need a .gitignore file?
+A .gitignore file is essential for keeping your Git repository clean and secure. It prevents unnecessary files from being tracked, such as compiled code, dependency folders (like node_modules), IDE configuration files, operating system files (.DS_Store), and sensitive information like API keys or passwords. This keeps your repository lightweight, prevents merge conflicts on auto-generated files, and protects sensitive data from being accidentally committed.
+
+How to use the .gitignore generator?
+Using the .gitignore generator is straightforward: select the technologies, frameworks, IDEs, and operating systems relevant to your project from the available options. The tool will automatically combine the appropriate rules and generate a comprehensive .gitignore file. You can then copy the generated content and save it as a .gitignore file in your project's root directory.
+
+How do I add the .gitignore file to my repository?
+To add a .gitignore file to your repository:
+1. Create a new file named .gitignore (with the dot prefix) in your project's root directory
+2. Copy and paste the generated content from the tool
+3. Save the file
+4. Add and commit the file to your repository: git add .gitignore && git commit -m "Add .gitignore file"
+Note: If you're adding .gitignore to an existing repository that already tracks some files you want to ignore, you'll need to untrack them first using git rm --cached filename.
+
+Can I customize the generated .gitignore file?
+Absolutely! The generated .gitignore file serves as a solid foundation, but you can always customize it for your specific needs. You can add project-specific files or directories, modify existing rules, or remove rules that don't apply to your workflow. The .gitignore file uses simple pattern matching, so you can easily add custom rules like specific file extensions, directory names, or file patterns.
+
+All features, 30 days for free!
+
+Try Tower now and see why it's the tool of choice for thousands of professionals all over the world.
+
+
+Also available for macOS
+
+Tower Git Client
+Download for macOS
+Download for Windows
+Releases
+Pricing
+Beta Channel
+
+Use Cases
+Developers
+Designers
+Teams
+Enterprise
+Students
+Teachers & Universities
+
+Features
+Easy
+Powerful
+Productive
+ 
+New Features
+All Features
+Integrations
+CLI vs GUI
+Tower Workflows
+Stacked Pull Requests
+
+Free Tools
+Code Diff Tool
+.gitignore Generator
+
+Support
+Help Center
+Documentation
+Learn Git
+Newsletter
+Contact Us
+
+Company
+About
+Blog
+Press
+Jobs
+Merch
+Affiliate Program
+
+Legal
+License Agreement
+Privacy Policy
+Privacy Settings
+Imprint
+© 2010-2025 Tower - Mentioned product names and logos are property of their respective owners.
